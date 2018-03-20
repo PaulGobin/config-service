@@ -5,7 +5,7 @@ spring:
   application:
     name: config-service
   profiles:
-    active: config-service,,bvnjdbc
+    active: config-service,bvnjdbc
     
 # used for registering this service with our eureka service registry cluster instance
 eureka:
